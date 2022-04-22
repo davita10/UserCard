@@ -1,0 +1,78 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 600px;
+    min-height: 200px;
+    border: 3px solid darkgray;
+    margin: 150px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.banner{
+    height: 75px;
+    width: auto;
+    background-color: darkturquoise;
+}
+
+.card{
+    padding: 60px 30px 20px;
+}
+
+img{
+    height: 90px;
+    width: 85px;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+
+.relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+.map-marker{
+    width: auto;
+    max-height: 20px;
+    margin-right: 4px;
+    font: 1em sans-serif;
+    border: none;
+}
+
+p{
+    font-weight:350;
+    
+}
+
+.gear-icon{
+    width: auto;
+    max-height: 20px;
+    border: none;
+    margin-right: 4px;
+    color: royalblue;
+    font: 1em sans-serif;
+    text-underline-position: auto;
+}
+
+.spacer{
+    margin-bottom: 1em;
+}
+
+a{
+    color: royalblue;
+}
+
+
+
+
